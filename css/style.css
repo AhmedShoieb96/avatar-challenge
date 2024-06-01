@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+.app{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.app .all .card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 10%;
+  
+
+}
+.app .all .card .avatar{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+background-color: black;
+
+
+}
+.avatar span{
+color: white;
+mix-blend-mode:difference;
+
+}
